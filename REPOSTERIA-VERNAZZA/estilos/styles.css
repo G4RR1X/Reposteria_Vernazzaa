@@ -1,0 +1,44 @@
+body {
+    background-color: black; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente */
+    grid-area: auto;
+}
+
+.header {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #000; /* Fondo negro */
+    border-radius: 20px;
+    border: 2px solid rgb(223, 184, 13); /* Borde verde neón */
+    box-shadow: 0 0 20px rgb(255, 255, 255); /* Sombra neón */
+}
+
+.titulo {
+    text-align: center;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.menu {
+    background-color: #333; /* Fondo oscuro para el menú */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    border: 2px solid rgb(223, 184, 13); /* Borde verde neón */
+
+    border-radius: 10px;
+    box-shadow: 0 0 20px #cab812; /* Sombra blanca */
+    width: 80%; /* Anchura del menú */
+    max-width: 50%; /* Anchura máxima del menú */
+    margin: 20px auto; /* Centra horizontalmente y agrega margen arriba y abajo */
+}
+
+
+/* Media query para dispositivos de pantalla más pequeños */
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 90%; /* Reducir el ancho del menú en pantallas más pequeñas */
+    }
+}
